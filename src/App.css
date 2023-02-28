@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.sigCanvas{
+  display: flex;
+  background: #f0f0f0;
+}
+.base64{
+  font-size: 10px;
+    word-wrap: break-word;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
