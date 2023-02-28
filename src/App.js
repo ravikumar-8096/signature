@@ -24,8 +24,8 @@ let App = ({add}) => {
     };
     return (
         <>
-            <div className="container-fluid text-center mt-5">
-                <h1 className="text-uppercase text-info h1 ">Signatures</h1>
+            <div className="main-div">
+                <h1 className="text-uppercase text-info h1 ">Signature form</h1>
                 <SignaturePad penColor='green' toDataURL
                   canvasProps={{width: 500, height: 200, className: 'sigCanvas'}} 
                   ref={signPad}

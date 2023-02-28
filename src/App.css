@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.main-div{
+  background-color: #fcfcfc;
+}
 
 .sigCanvas{
   display: flex;
